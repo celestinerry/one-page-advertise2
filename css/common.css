@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;500&family=Noto+Serif+TC:wght@500&display=swap');
+
+html,
+body {
+    position: relative;
+    width: 100%;
+    font-family:'Noto Sans TC','raleway', 'Montserrat Hairline', sans-serif, Helvetica Neue, Helvetica, Arial, sans-serif;    
+    font-size: 12pt;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    background: #000;
+    font-weight: 200;
+}
+
+p{margin: 0rem;}
+.logoGrp{margin: 1rem;}
+.logoGrp figure{text-align: center;}
+.logo{width: 120px;}
+.logoGrp h4.logo-tit{
+    text-align: center;
+    font-size: 2rem;margin: 1rem 0;
+}
+.logoGrp h4.logo-tit small{font-size: 1.2rem;}
+
+.img-grp img, .flex1 img{width: 100%;}
+
+.tit{font-size: 1.5rem;margin: 2rem 0;}
+
+.flex{display: flex;justify-content: center;align-items: center;}
+.flex.flex-left{justify-content: flex-start;}
+.flex.flex-top{align-items: flex-start;}
+.flex .flex1{flex: 1;}
+figure.px-2{padding: 5px;margin: 0;}
+
+.footerGrp{background: url('../images/footer_bg.webp') center center no-repeat;width: 100%;height: 500px;
+    background-size: cover;overflow: hidden;
+}
+
+.container-brp{width: 600px;margin: auto;display: block;}
+.btn-def{
+    display: block;
+    background: linear-gradient(to bottom, #c1272d, #8b182d);
+    border-radius: 40px;
+    padding: 0.8rem 2.5rem;
+    color: #fff;
+    margin: 2rem 0;
+    border: 0;
+}
+.btn-def:hover{
+    color: #fccf21;
+    background:  linear-gradient(to bottom, #8b182d, #c1272d);
+}
+a{color: #fff;text-decoration: none;}
+a.a1{color: #fcee21; text-decoration: none;}
+a.a1:hover{color: #fccf21;}
+a.a2:hover{text-decoration:underline;color: #fff;}
+
+.footerLogo h4.logo-tit{color: #000;}
+
+.hover{cursor: pointer;}
+
+@media only screen and  (max-width:1440px){ 
+}
+@media only screen and  (max-width: 1280px){
+}
+@media only screen and  (max-width: 1024px){
+}
+@media only screen and (max-width: 913px){
+}
+@media only screen and (min-width: 771px){
+}
+@media only screen and (max-width: 770px){
+    
+}
+@media (max-width: 768px){
+}
+@media only screen and (max-width: 600px){
+    .container-brp{width: 90%;margin: auto;}
+    .top-logo .logo{width: 60px;margin-right: 1rem;}
+    .logoGrp.top-logo h4.logo-tit{font-size: 1.5rem;}
+    .logoGrp.top-logo h4.logo-tit small{font-size: 1rem;}
+    .logoGrp.top-logo{display: flex;align-items: center;}
+    .footerLogo .logo{width: 80px;}
+}
+@media only screen and (max-width: 499px){
+    .flex.grp-txt{flex-wrap: wrap;}
+    .flex .flex1{flex: none;width: 100%;margin: 0;margin-bottom: 1rem;}
+    .tit{margin: 1rem 0;}
+}
+@media only screen and (max-width: 400px){    
+    .footerGrp{height: 400px;}
+}
+@media only screen and (max-width: 300px){    
+    .btn-def{font-size: 1rem;padding: 1rem 1rem;}
+}
+
+/*
+../../static/website/275/275139/files/images/mehome_pro1TitImg.png
+<link href="https://icynthiar.synology.me/web_weibebe/css/common.css" rel="stylesheet">
+<link rel="shortcut icon" href="https://www.mehome-life.com/images/favicon.ico">
+<link rel="stylesheet" href="https://www.mehome-life.com/images/common.css" />
+<!--<link rel="stylesheet" href="https://icynthiar.synology.me/web_mehome/css/common.css" />-->
+<meta property="og:image" content="https://www.mehome-life.com/images/_imagecache/mehome_logoIco1.png">
+<meta property="og:url" content="www.mehome-life.com">
+<meta property="og:type" content="article">
+<meta property="og:title" content="MEHOME">
+<meta property="og:description" content="像絲綢般的柔軟 體驗頂極睡眠">
+*/
