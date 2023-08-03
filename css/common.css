@@ -15,6 +15,12 @@ body {
     font-weight: 200;
 }
 
+img {
+    max-width: 100%;
+    height: auto;/* 
+      aspect-ratio: 16/9;   */
+  }
+
 p{margin: 0rem;}
 .logoGrp{margin: 1rem;}
 .logoGrp figure{text-align: center;}
